@@ -1,1 +1,4 @@
-select metabolism from annotation GROUP by 1 HAVING count(metabolism) > 1; 
+select metabolism 
+from annotation 
+GROUP by 1 
+HAVING count(metabolism) > 1; 
